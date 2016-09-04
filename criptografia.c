@@ -16,7 +16,7 @@ E o contrário também é válido, assim percorrendo apenas metade das vezes a c
 */
 char criptografa_abc(char s[])
 {   int i; //Contador i
-    char chave[] ={'abcdefghijklmnopqrstuvxyz'} ;
+    char chave[] ="abcdefghijklmnopqrstuvxyz";
     int n = strlen(chave);
     int m = strlen(s);
     char *criptografado= malloc(m * sizeof(char));
